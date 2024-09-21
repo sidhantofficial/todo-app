@@ -10,7 +10,10 @@ struct Task {
     bool completed;
 
     // Constructor
-    Task(string desc) : description(desc), completed(false) {}
+Task(string desc) {
+    description = desc;
+    completed = false;
+}
 };
 
 // Function to add a new task
